@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.domain{
+
+position: relative;
+height: 80vh;
+background-image: url(./asset/lap.jpg)  ;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.BUTT{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    TEXT-DECORATION: NONE;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}

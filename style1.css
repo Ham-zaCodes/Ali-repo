@@ -1,0 +1,74 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #333;
+  color: white;
+}
+header nav ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.hero{
+  background-image: url(./asset/lap.jpg);
+  color: black;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.ahero{
+  background-color: white;
+  height: 30px;
+  width: 100px;
+  display: inline-block;
+}
+.afeature{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+.feature{
+  /* display: flex;
+  justify-content: space-around;
+  padding: 2rem; */
+  text-align: center;
+  max-width: 300px;
+}
+.blue-box{
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+.articles ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 2rem;
+}
+.articles li{
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 30%;
+}
+.cta{
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+footer{
+  background: #333;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
